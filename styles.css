@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    background: linear-gradient(rgba(1, 0, 0, 0.734), rgba(1, 1, 1, 0.734)), 
+    background: linear-gradient(rgba(1, 0, 0, 0.37), rgba(1, 1, 1, 0.507)), 
     url('img/background.png') center/cover no-repeat fixed;;
     color: whitesmoke;
     gap: 2rem;
@@ -76,7 +76,7 @@ header, footer{
     resize: none;
     border: none;
     outline: none;
-    background-color: rgba(39, 38, 38, 0.6);
+    background-color: rgba(39, 38, 38, 0.651);
     font-size: 1.2rem;
     padding: 1rem;
     color: whitesmoke;
