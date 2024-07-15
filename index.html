@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/logo.png">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Logo y título-->
+        <header class="header">
+            <img src="img/logo.png" width="70" height="65" alt="icono candado">
+            <h1 id="header-title">Encriptador / Desencriptador de texto</h1>
+        </header>
+        <main class="main">
+            <!--Sección usuario-->
+            <section class="area-user">
+                <!--Escribir texto-->
+                <textarea id="area-user-text" spellcheck="false" type="text" placeholder="Ingrese texto aquí"></textarea>
+                <div class="area-user-bottom">
+                    <!--Warning-->
+                    <label id="area-user-bottom-warning">&#9888; Ingrese solo letras minúsculas, sin acentos ni símbolos</label>    
+                    <!--Botones-->
+                    <div class="area-user-bottom-buttons">
+                        <button class="button button-encrypt">Encriptar</button>
+                        <button class="button button-decrypt">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <!--Sección resultado-->
+            <aside class="aside">
+                <!--Mensaje encriptado/desencriptado-->
+                <img class="aside-image" src="img/notfound.png" width="200" height="200" alt="lupa indicando no encontrado">
+                <div class="aside-no-message">
+                    <h2 id="no-message">No se encontró ningún mensaje</h2>
+                    <p id="enter-text">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <button class="button button-copy hidden">Copiar</button>
+                </div> 
+            </aside> 
+        </main>
+        <footer class="footer">
+            <p>&copy; David Ariza</p>
+            <a href="https://www.linkedin.com/in/davidariza99/">
+                <img src="img/linkedin.png" width="25" height="25" alt="linkedin logo">
+            </a>
+            <a href="https://github.com/Davidariza99">
+                <img src="img/github.png" width="25" height="25" alt="github logo">
+            </a>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
