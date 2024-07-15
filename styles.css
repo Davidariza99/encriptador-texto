@@ -195,6 +195,18 @@ header, footer{
     width: 80%;
 }
 
+#result{
+    height: 12.68rem;
+    width: 31.2rem;
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
 @media (max-width: 600px) {
     body{
         padding: 10px;
