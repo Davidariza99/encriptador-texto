@@ -22,9 +22,9 @@ body{
     background: linear-gradient(rgba(1, 0, 0, 0.734), rgba(1, 1, 1, 0.734)), 
     url('img/background.png') center/cover no-repeat fixed;;
     color: whitesmoke;
-    padding: 100px;
     gap: 2rem;
     height: 100%;
+    align-content: center;
 }
 
 header, footer{
@@ -36,7 +36,7 @@ header, footer{
     align-items: center;
     gap: 1rem;
     font-size: .8rem;
-    margin: 0 0 2rem 0;
+    margin: 1rem 0 2rem 0;
     justify-content: center;
 }
 
@@ -45,7 +45,8 @@ header, footer{
     align-items: center;
     gap: 1rem;
     text-align: center;
-    margin: 5rem 0 2rem 0;
+    margin: 4rem 0 2rem 0;
+    padding-bottom: 2rem;
     justify-content: center;
 }
 
@@ -190,8 +191,8 @@ header, footer{
     gap: .5rem;
 }
 
-#no-message{
-    padding: 0 1rem;
+#enter-text{
+    width: 80%;
 }
 
 @media (max-width: 600px) {
