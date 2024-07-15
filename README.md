@@ -5,7 +5,7 @@
 ## Descripción 🧾
 Se trata de una página web que permite encriptar y desencriptar de manera simple el texto que ingrese el usuario. Un proyecto simple que permite practicar el uso de HTML, CSS y Javascript.
 
-## Funcionamiento
+## Funcionamiento 🔧
 ### Llaves de encriptación 🔒
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 ```
